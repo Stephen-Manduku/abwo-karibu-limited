@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ABWO KARIBU LIMITED</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service {
+            background-color: white;
+            padding: 20px;
+            width: 30%;
+            margin: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to ABWO KARIBU LIMITED</h1>
+        <p>Your Trusted IT Consulting Partner</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <section>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Network Installation</h3>
+                <p>Professional setup of wired and wireless network systems for businesses.</p>
+            </div>
+            <div class="service">
+                <h3>Fiber Optic Services</h3>
+                <p>Fiber optic cabling and installation for high-speed internet solutions.</p>
+            </div>
+            <div class="service">
+                <h3>Electrical Works</h3>
+                <p>Comprehensive electrical services including wiring for offices and data centers.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ABWO KARIBU LIMITED - IT Consulting | Network Installation | Fiber & Electrical Works</p>
+    </footer>
+</body>
+</html>
